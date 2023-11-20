@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="universal.css">
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: beige;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 36px;
+            font-weight: bold;
+            color: navy;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        form label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+            color: navy;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form select,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form select {
+            appearance: none;
+            -webkit-appearance: none;
+            background-image: url('arrow-down.png');
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: 20px;
+            padding-right: 30px;
+        }
+
+        form button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: navy;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: maroon;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: beige;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 36px;
+            font-weight: bold;
+            color: navy;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        form label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+            color: navy;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form select,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form select {
+            appearance: none;
+            -webkit-appearance: none;
+            background-image: url('arrow-down.png');
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: 20px;
+            padding-right: 30px;
+        }
+
+        form button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: navy;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: maroon;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="banner.png" alt="hotel">
+    </div>
+    <div class="navbar">
+        <div class="container">
+            <a href="home.html">Home</a>
+            <a href="roomfinal.html">Rooms</a>
+            <a href="service.html">Services</a>
+            <a href="insights.php">Insights</a>
+            <a href="login.html">Admin</a>
+        </div>
+    </div>
+    <h1>Login</h1>
+    <form action="login.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
